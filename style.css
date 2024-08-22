@@ -1,0 +1,37 @@
+body {
+    background-color: #99557f;
+    color: white;
+    font-family: "Anton", sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin: 80;
+}
+
+button {
+    background-color: #fdc3ec;
+    color: rgb(0, 0, 0);
+    font-family: "Anton", sans-serif;
+    font-size: 20px;
+
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 40%;
+}
+
+img {
+    max-width: 100%;
+    margin-top: 40%;
+}
